@@ -1,12 +1,11 @@
 import './index.css'
-import BookIndex from "./components/book/BookIndex";
-
+import Startup from "./components/startup/Startup";
 
 function App() {
 
     return (
         <div>
-            <BookIndex/>
+            <Startup/>
         </div>
     );
 }
