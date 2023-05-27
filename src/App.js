@@ -1,5 +1,5 @@
 import './index.css'
-import Startup from "./components/startup/Startup";
+import Startup from "./components/orgnization/Startup";
 
 function App() {
 
