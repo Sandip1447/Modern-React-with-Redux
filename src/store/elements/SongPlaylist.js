@@ -1,4 +1,4 @@
-import {createRandomSong} from "../data/index";
+import {createRandomSong} from "../data";
 import {useDispatch, useSelector} from "react-redux"
 import {addSong ,removeSong} from "../Store";
 import Button from "../../orgnization/elements/Button";

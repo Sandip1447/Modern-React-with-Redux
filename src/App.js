@@ -1,6 +1,5 @@
 import './index.css'
-import StoreProvider from "./components/store/StoreProvider";
-
+import StoreProvider from "./store/StoreProvider";
 
 function App() {
 
