@@ -5,6 +5,7 @@ import SideBar from "../elements/SideBar";
 import ButtonPage from "./ButtonPage";
 import ModalPage from "./ModalPage";
 import TablePage from "./TablePage";
+import CounterPage from "./CounterPage";
 
 function StartupIndex() {
     return (
@@ -25,6 +26,10 @@ function StartupIndex() {
 
                 <Route path="/table">
                     <TablePage/>
+                </Route>
+
+                <Route path="/counter">
+                    <CounterPage initialCount={10}/>
                 </Route>
 
                 <Route path="/">
