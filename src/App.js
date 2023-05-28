@@ -1,11 +1,12 @@
 import './index.css'
-import Startup from "./components/orgnization/Startup";
+import StoreProvider from "./components/store/StoreProvider";
+
 
 function App() {
 
     return (
         <div>
-            <Startup/>
+            <StoreProvider/>
         </div>
     );
 }
