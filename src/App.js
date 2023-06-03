@@ -1,11 +1,11 @@
 import './index.css'
-import CarProvider from "./cars/store/CarProvider";
+import MediaStarter from "./media/MediaStarter";
 
 function App() {
 
     return (
         <div>
-            <CarProvider/>
+            <MediaStarter/>
         </div>
     );
 }
