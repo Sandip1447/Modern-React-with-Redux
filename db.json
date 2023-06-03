@@ -17,8 +17,18 @@
     {
       "name": "Faye Halvorson",
       "id": 1
+    },
+    {
+      "name": "Claire Wiza",
+      "id": 2
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "title": "Claire Wiza",
+      "id": 1,
+      "userId": 1
+    }
+  ],
   "photos": []
 }
