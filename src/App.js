@@ -1,11 +1,11 @@
 import './index.css'
-import StoreProvider from "./store/StoreProvider";
+import CarProvider from "./cars/store/CarProvider";
 
 function App() {
 
     return (
         <div>
-            <StoreProvider/>
+            <CarProvider/>
         </div>
     );
 }
