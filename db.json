@@ -15,34 +15,10 @@
   ],
   "users": [
     {
-      "name": "Jermaine Grimes PhD",
+      "name": "Faye Halvorson",
       "id": 1
-    },
-    {
-      "name": "Gilbert Swaniawski",
-      "id": 3
-    },
-    {
-      "name": "Earnest Rutherford",
-      "id": 5
-    },
-    {
-      "name": "Gene Turner",
-      "id": 6
     }
   ],
-  "albums": [
-    {
-      "id": "8015e5b2",
-      "title": "thried",
-      "userId": 1
-    }
-  ],
-  "photos": [
-    {
-      "id": "8015e5b2",
-      "url": "thried",
-      "albumId": 1
-    }
-  ]
+  "albums": [],
+  "photos": []
 }
