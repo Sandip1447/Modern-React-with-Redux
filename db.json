@@ -15,45 +15,55 @@
   ],
   "users": [
     {
-      "name": "Shannon Vandervort",
+      "name": "Chris Stark",
       "id": 1
     },
     {
-      "name": "Alexandra Hansen",
+      "name": "Mr. Elias Raynor",
       "id": 2
+    },
+    {
+      "name": "Vernon Kuvalis",
+      "id": 3
     }
   ],
   "albums": [
     {
-      "useId": 1,
-      "title": "Small Concrete Car",
+      "userId": 1,
+      "title": "Luxurious Bronze Shirt",
       "id": 1
     },
     {
-      "useId": 1,
-      "title": "Handcrafted Bronze Chicken",
+      "userId": 2,
+      "title": "Handcrafted Steel Towels",
       "id": 2
     },
     {
-      "userId": 2,
-      "title": "Unbranded Wooden Chair",
+      "userId": 3,
+      "title": "Handcrafted Rubber Chicken",
       "id": 3
     },
     {
-      "userId": 1,
-      "title": "Electronic Concrete Computer",
+      "userId": 2,
+      "title": "Licensed Plastic Sausages",
+      "id": 4
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150?lock=1605558436102144",
       "id": 4
     },
     {
-      "userId": 1,
-      "title": "Oriental Rubber Chicken",
-      "id": 5
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150?lock=2258078118445056",
+      "id": 12
     },
     {
-      "userId": 2,
-      "title": "Luxurious Fresh Soap",
-      "id": 6
+      "albumId": 3,
+      "url": "https://picsum.photos/seed/5XgH4u2K/150/150",
+      "id": 13
     }
-  ],
-  "photos": []
+  ]
 }
