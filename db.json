@@ -15,22 +15,34 @@
   ],
   "users": [
     {
-      "id": "8015e5b2",
-      "name": "John Doe"
+      "name": "Jermaine Grimes PhD",
+      "id": 1
     },
     {
-      "name": "Matthew Grimes",
-      "id": "muWeJ3o"
+      "name": "Gilbert Swaniawski",
+      "id": 3
     },
     {
-      "name": "Sylvia Keebler",
-      "id": "8U2FTfn"
+      "name": "Earnest Rutherford",
+      "id": 5
     },
     {
-      "name": "Monica Marks",
-      "id": "IoREFK1"
+      "name": "Gene Turner",
+      "id": 6
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": "8015e5b2",
+      "title": "thried",
+      "userId": 1
+    }
+  ],
+  "photos": [
+    {
+      "id": "8015e5b2",
+      "url": "thried",
+      "albumId": 1
+    }
+  ]
 }

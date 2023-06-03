@@ -4,6 +4,7 @@ import {addUser, fetchUsers} from "../store/MediaStore";
 import Skeleton from "./Skeleton";
 import Button from "../../orgnization/elements/Button";
 import {useThunk} from "../hooks/use-thunk";
+import UsersListItem from "./UsersListItem";
 
 function UsersList() {
     const [doFetchUsers, isLoadingUsers, loadingUsersError] =
@@ -28,20 +29,17 @@ function UsersList() {
         content = <div>Error fetching data...</div>;
     } else {
         content = data.map((user) => {
-            return (
-                <div key={user.id} className="mb-2 border rounded">
-                    <div className="flex p-2 justify-between items-center cursor-pointer">
-                        {user.name}
-                    </div>
-                </div>
-            );
+            return <UsersListItem key={user.id} user={user}/>;
         });
     }
+
     return (
         <div>
             <div className="flex flex-row justify-between items-center m-3">
                 <h1 className="m-2 text-xl">Users</h1>
-                <Button onClick={handleUserAdd} loading={isCreatingUser}>+ Add User</Button>
+                <Button loading={isCreatingUser} onClick={handleUserAdd}>
+                    + Add User
+                </Button>
                 {creatingUserError && 'Error creating user...'}
             </div>
             {content}

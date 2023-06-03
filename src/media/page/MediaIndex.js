@@ -1,9 +1,9 @@
 import UsersList from "../components/UsersList";
 
 
-function MediaIndex(){
+function MediaIndex() {
 
-    return <div>
+    return <div className="container mx-auto">
         <UsersList/>
     </div>
 }
