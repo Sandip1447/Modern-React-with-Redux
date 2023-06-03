@@ -13,7 +13,10 @@
       "title": "thried"
     }
   ],
-  "users": [],
+  "users": [{
+    "id": "e401be45",
+    "name": "User Test"
+  }],
   "albums": [],
   "photos": []
 }

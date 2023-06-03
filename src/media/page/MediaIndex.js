@@ -1,10 +1,11 @@
+import UsersList from "../components/UsersList";
 
 
 function MediaIndex(){
 
-    return <>
-    Hello
-    </>
+    return <div>
+        <UsersList/>
+    </div>
 }
 
 export default MediaIndex
