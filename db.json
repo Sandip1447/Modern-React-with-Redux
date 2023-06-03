@@ -15,19 +15,44 @@
   ],
   "users": [
     {
-      "name": "Faye Halvorson",
+      "name": "Shannon Vandervort",
       "id": 1
     },
     {
-      "name": "Claire Wiza",
+      "name": "Alexandra Hansen",
       "id": 2
     }
   ],
   "albums": [
     {
-      "title": "Claire Wiza",
-      "id": 1,
-      "userId": 1
+      "useId": 1,
+      "title": "Small Concrete Car",
+      "id": 1
+    },
+    {
+      "useId": 1,
+      "title": "Handcrafted Bronze Chicken",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "title": "Unbranded Wooden Chair",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Electronic Concrete Computer",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Rubber Chicken",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "Luxurious Fresh Soap",
+      "id": 6
     }
   ],
   "photos": []

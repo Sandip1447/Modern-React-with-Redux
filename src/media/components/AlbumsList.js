@@ -1,4 +1,7 @@
-import {useFetchAlbumsQuery} from "../store/MediaStore"
+import {useAddAlbumMutation, useFetchAlbumsQuery} from "../store/MediaStore"
+import Skeleton from "./Skeleton";
+import Button from "../../orgnization/elements/Button";
+import AlbumsListItem from "./AlbumsListItem";
 
 /*
 * Creating a RTK Query API
@@ -22,12 +25,37 @@ import {useFetchAlbumsQuery} from "../store/MediaStore"
 * */
 function AlbumsList({user}) {
 
-    const { data, error, isLoading } = useFetchAlbumsQuery(user);
+    // Argument to pass the query function
+    const {data, error, isFetching} = useFetchAlbumsQuery(user);
+    const [addAlbum, results] = useAddAlbumMutation();
 
-    console.log(data, error, isLoading);
+    const handleAlbumAdd = () => {
+        addAlbum(user)
+    }
 
+    let content;
+    if (isFetching) {
+        content = <Skeleton times={3} className="h-10 w-full"/>;
+    } else if (error) {
+        content = <div>Error fetching albums.</div>;
+    } else {
+        content = data.map((album) => {
+            return <AlbumsListItem key={album.id} album={album}/>
+        });
+    }
 
-    return <div>Albums for {user.name}</div>;
+    return <div>
+
+        <div className="m-2 flex flex-row items-center justify-between">
+            <h4 className="text-lg font-bold">Albums for {user.name}</h4>
+            <Button loading={results.isLoading} onClick={handleAlbumAdd}>
+                + Add Album
+            </Button>
+        </div>
+
+        <div> {content}</div>
+
+    </div>;
 }
 
 export default AlbumsList;
