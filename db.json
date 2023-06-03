@@ -13,10 +13,24 @@
       "title": "thried"
     }
   ],
-  "users": [{
-    "id": "e401be45",
-    "name": "User Test"
-  }],
+  "users": [
+    {
+      "id": "8015e5b2",
+      "name": "John Doe"
+    },
+    {
+      "name": "Matthew Grimes",
+      "id": "muWeJ3o"
+    },
+    {
+      "name": "Sylvia Keebler",
+      "id": "8U2FTfn"
+    },
+    {
+      "name": "Monica Marks",
+      "id": "IoREFK1"
+    }
+  ],
   "albums": [],
   "photos": []
 }

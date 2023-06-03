@@ -9,3 +9,4 @@ export const store = configureStore({
 
 // Step 5. Export the thunk from the store/index.js file
 export * from './thunks/fetchUsers'
+export * from './thunks/addUser'
